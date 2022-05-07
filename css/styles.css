@@ -1,0 +1,253 @@
+:root{
+    --primary-text-color:#FFFFFF;
+    --title-text-color:#212121;
+    --subtitle-text-color:#757575;
+    --link-text-color:#2196F3;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+
+/* Хедер */
+
+/* Фон хедера */
+
+.header-phone{
+    background-color:var(--primary-text-color);
+}
+
+/* Колір логотипу */
+
+.logo-web, .logo-studio{
+    color: var(--link-text-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-studio{
+    color: #000000;
+}
+
+
+/* Кольори ссилок хедера */
+
+.header-nav a{
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    
+}
+
+.header-nav a:hover, 
+.header-nav a:focus {
+    color: var(--link-text-color);
+}
+
+.header-nav-mail{
+    color: var(--subtitle-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.header-nav-mail:hover,
+.header-nav-mail:focus {
+    color: var(--link-text-color);
+}
+
+
+.header-nav-tel{
+    color:var(--subtitle-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.header-nav-tel:hover,
+.header-nav-tel:focus {
+    color: var(--link-text-color);
+}
+
+
+/* Тіло сайту */
+
+/* Заголовки */
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+
+.title-text{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subtitle-text{
+    color: var(--subtitle-text-color);
+    line-height: 1.71;    
+}
+
+.title-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* Колір головного заголовку(Ефективні...)*/
+
+.section-title-with-a-button {
+    color: var(--primary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+}
+
+/* Колір фону з кнопкою */
+.section-phone-with-a-button{
+    background-color: #2F303A;
+}
+
+/* Колір фону Наша команда */
+.section-phone-our-team{
+    background-color: #F5F4FA;
+}
+
+/* Колір заголовків посад команди */
+.subtitle-specialty{
+    color: var(--subtitle-text-color);
+    font-size: 16px;
+    line-height: 1.19px;
+    text-align: center;
+}
+
+
+/* Button */
+
+.button{
+    color: var(--primary-text-color);
+    background-color: var(--link-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+
+
+/* Link */
+
+.header-nav .link.current{
+    color: var(--link-text-color); 
+}
+
+
+
+/* Футер */
+
+.footer-phone{
+    background-color: #2F303A;
+}
+
+.logo-studio-white{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.city-adress{
+    color: #FFFFFF;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+.address-block .link{
+    font-style: normal;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.address-block a:hover,
+.address-block a:focus {
+    color: var(--link-text-color);
+}
+
+
+
+/* Портфоліо */
+
+.button-portfolio{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: F5F4FA;
+    cursor: pointer;
+}
+
+
+.button-portfolio:hover,
+.button-portfolio:focus{
+    color: var(--primary-text-color);
+    background: var(--link-text-color);
+}
+
+
+.work-list .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.work-list .subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
