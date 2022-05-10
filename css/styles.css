@@ -11,12 +11,24 @@ ul{
 }
 
 
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 body{
     font-family:'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+}
+
+h1,h2,h3,p,ul{
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -30,10 +42,20 @@ body{
     margin: 0;
 }
 
-
-.header-phone{
+.nav{
     background-color:var(--primary-text-color);
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.section{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 
 /* Колір логотипу */
 
@@ -91,7 +113,7 @@ body{
 }
 
 
-/* Тіло сайту */
+/* Герой */
 
 /* Заголовки */
 
@@ -100,15 +122,13 @@ body{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
 }
 
 
 .title-text{
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
 
 .subtitle-text{
@@ -121,53 +141,27 @@ body{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 /* Колір головного заголовку(Ефективні...)*/
 
-.section-title-with-a-button {
-    color: var(--primary-text-color);
+.hero-title {
+    color: var(--title-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 30px;
     text-align: center;
-    
-    
 }
 
-/* Колір фону з кнопкою */
-.section-phone-with-a-button{
-    background-color: #2F303A;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-   
-}
-
-/* Колір фону Наша команда */
-.section-phone-our-team{
-    background-color: #F5F4FA;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-    outline: 2px solid tomato;
-}
 
 /* Колір заголовків посад команди */
 .subtitle-specialty{
     color: var(--subtitle-text-color);
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     text-align: center;
 }
 
@@ -180,14 +174,12 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     padding: 10px 32px 10px 32px;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+    min-width: 200px;
 }
 
 
@@ -204,9 +196,6 @@ body{
 
 .footer-phone{
     background-color: #2F303A;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .logo-studio-white{
@@ -225,8 +214,6 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
-
 
 
 
@@ -256,7 +243,7 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
-    background-color: F5F4FA;
+    background-color: #F5F4FA;
     cursor: pointer;
 }
 
@@ -289,48 +276,11 @@ body{
 }
 
 
-.container{
+.container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-
-.container-mail{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-}
-
-
-.container-list{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     outline: 2px solid tomato;
-}
-
-.container-image{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-    outline: 2px solid tomato;
-}
-
-
-
-h1,h2,h3,p,ul{
-    margin: 0;
-    padding: 0;
 }
