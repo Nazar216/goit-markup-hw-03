@@ -26,11 +26,28 @@ body{
     color: var(--title-text-color);
 }
 
-h1,h2,h3,p,ul{
+
+h1,
+h2,
+h3,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+
+img {
+    display: block;
+}
 
 
 /* Хедер */
@@ -53,8 +70,11 @@ h1,h2,h3,p,ul{
     width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 }
+
 
 
 /* Колір логотипу */
@@ -70,6 +90,7 @@ h1,h2,h3,p,ul{
 .logo-studio{
     color: #000000;
 }
+
 
 
 /* Кольори ссилок хедера */
@@ -122,6 +143,8 @@ h1,h2,h3,p,ul{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 50px;
+
 }
 
 
@@ -129,6 +152,7 @@ h1,h2,h3,p,ul{
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .subtitle-text{
@@ -141,6 +165,8 @@ h1,h2,h3,p,ul{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 /* Колір головного заголовку(Ефективні...)*/
@@ -154,6 +180,7 @@ h1,h2,h3,p,ul{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -196,7 +223,17 @@ h1,h2,h3,p,ul{
 
 .footer-phone{
     background-color: #2F303A;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 
 .logo-studio-white{
     color: #FFFFFF;
@@ -213,22 +250,30 @@ h1,h2,h3,p,ul{
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    display: inline-block;
+    padding-bottom: 9px;
+    padding-top: 20px;
 }
 
 
 
 .address-block .link{
     font-style: normal;
-    line-height: 1.71px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    display: inline-block;
+    padding-bottom: 9px;
 }
+
+
 
 .address-block a:hover,
 .address-block a:focus {
     color: var(--link-text-color);
 }
+
 
 
 
@@ -276,11 +321,3 @@ h1,h2,h3,p,ul{
 }
 
 
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: 2px solid tomato;
-}
