@@ -42,8 +42,12 @@ ul {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
 }
+
+.hero{
+    text-align: center;
+}
+
 
 img {
     display: block;
@@ -64,6 +68,7 @@ img {
     width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    outline: 2px solid tomato;
 }
 
 .section{
@@ -72,6 +77,7 @@ img {
     margin-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
+    outline: 2px solid tomato;
     
 }
 
@@ -94,6 +100,37 @@ img {
 
 
 /* Кольори ссилок хедера */
+
+.header-nav{
+    display: flex;
+    margin-left: 93px;
+
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* .header-nav .item:not(:last-child){
+    margin-right: 50px;
+} */
+
+.header-nav .item + .item{
+    margin-left: 50px;
+}
+
+
+.header-contacts{
+    display: flex;
+    margin-left: auto;
+}
+
+.header-contacts .item + .item{
+    margin-left: 50px;
+}
+
 
 .header-nav a{
     color: #212121;
@@ -215,6 +252,7 @@ img {
 
 .header-nav .link.current{
     color: var(--link-text-color); 
+   
 }
 
 
@@ -312,8 +350,8 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    padding-top: 20px;
-    padding-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 .work-list .subtitle{
@@ -324,7 +362,7 @@ img {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 20px;
+    
 }
 
 .work-list{
@@ -333,5 +371,5 @@ img {
 
 
 .work-list li{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
