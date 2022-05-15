@@ -58,6 +58,9 @@ img {
 
 /* Фон хедера */
 
+
+
+
 .header-nav{
     padding: 0;
     margin: 0;
@@ -79,6 +82,14 @@ img {
     padding-bottom: 94px;
     outline: 2px solid tomato;
     
+}
+
+.section-exception{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    outline: 2px solid tomato;
 }
 
 
@@ -104,12 +115,13 @@ img {
 .header-nav{
     display: flex;
     margin-left: 93px;
-
 }
 
 .main-nav{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
     
 }
 
@@ -185,6 +197,13 @@ img {
 }
 
 
+.section-item{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
 .title-text{
     font-size: 14px;
     font-weight: 700;
@@ -205,6 +224,43 @@ img {
     margin-bottom: 10px;
     margin-top: 30px;
 }
+
+.text-item {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.text-item .item {
+    max-width: 270px;
+
+}
+
+
+.team-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-item .item{
+    background-color: var(--primary-text-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.section-team {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    outline: 2px solid tomato;
+    background-color: #F5F4FA;
+
+}
+
 
 /* Колір головного заголовку(Ефективні...)*/
 
@@ -227,6 +283,7 @@ img {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -283,14 +340,14 @@ img {
     letter-spacing: 0.03em;
 }
 
-.city-adress{
+.city-address{
     color: #FFFFFF;
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    display: inline-block;
-    padding-bottom: 9px;
-    padding-top: 20px;
+    display: block;
+    margin-bottom: 9px;
+    margin-top: 20px;
 }
 
 
@@ -301,9 +358,10 @@ img {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    display: inline-block;
-    padding-bottom: 9px;
+    display: block;
+    margin-bottom: 9px;
 }
+
 
 
 
@@ -373,3 +431,4 @@ img {
 .work-list li{
     margin-bottom: 30px;
 }
+
